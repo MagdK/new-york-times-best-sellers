@@ -84,17 +84,14 @@ const beerCard = (books) => {
             <article class="book-card">
                 <div class="book-number">${index + 1}</div>
                 <div class="book-card-inner">
-                        
                         <div class="book-info">
-                            <p class="sub">${sub}</p>
+                            <h4 class="sub">${sub}</h4>
                             <h3 class="title">${title}</h3>
-                            <h4 class="text">${text}<h4>
+                            <p class="text">${text}<p>
                         </div>
-                    </div>
-                    <button class="button-details">
-                    <span class="button-text">details</span> 
-                    <span class="material-icons button-icon">arrow_forward</button>
                 </div>
+                <button class="button-details"><span class="button-text">read more</span> 
+                <span class="material-icons button-icon">arrow_forward</button>
             </article>
             `
             )
