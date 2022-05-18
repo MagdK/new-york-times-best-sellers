@@ -170,7 +170,7 @@ p {
 	position: relative;
     width: 100%;
     background-color: var(--primary-color);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     cursor: pointer;
 }
 

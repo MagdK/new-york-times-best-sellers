@@ -76,9 +76,9 @@ function mainContentWrapper(content) {
 };
 
 
-const beerCard = (books) => {
+const bookCard = (books) => {
     return books.cards.map((book, index) => {
-        const { title, sub, text } = book
+        const { sub, title, text } = book
         return (
             `
             <article class="book-card">
@@ -101,14 +101,12 @@ const beerCard = (books) => {
 };
 
 
-
-
 const loadEvent = () => {
     const rootElement = document.getElementById("root");
     
     rootElement.insertAdjacentHTML("beforeend", pageHeader());
     rootElement.insertAdjacentHTML("beforeend", mainContentWrapper(
-        beerCard(books)
+        bookCard(books)
     ));
 };
 
