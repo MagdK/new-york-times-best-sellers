@@ -82,13 +82,15 @@ const beerCard = (books) => {
         return (
             `
             <article class="book-card">
-                <div class="book-number">${index + 1}</div>
-                <div class="book-card-inner">
-                        <div class="book-info">
-                            <h4 class="sub">${sub}</h4>
-                            <h3 class="title">${title}</h3>
-                            <p class="text">${text}<p>
-                        </div>
+                <div class="book-card-bordered">
+                    <div class="book-number">${index + 1}</div>
+                    <div class="book-card-inner">
+                            <div class="book-info">
+                                <h4 class="sub">${sub}</h4>
+                                <h3 class="title">${title}</h3>
+                                <p class="text">${text}<p>
+                            </div>
+                    </div>
                 </div>
                 <button class="button-details"><span class="button-text">read more</span> 
                 <span class="material-icons button-icon">arrow_forward</button>
