@@ -170,16 +170,20 @@ p {
 
 .button-details {
 	position: relative;
+    width: 100%;
 }
 
 .button-details:hover {
-	position: absolute;
+	background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .button-text {
-	position: relative;
+    position: absolute;
+    left: 0;
 	font-size: 14px;
-	line-height: 50px;
+	line-height: 20px;
+    text-align: left;
 }
 
 .button-icon {
