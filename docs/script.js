@@ -92,7 +92,7 @@ const bookCard = (books) => {
                             </div>
                     </div>
                 </div>
-                <button class="button-details"><span class="button-text">read more</span> 
+                <button class="button-details "><span class="button-text">read more</span> 
                 <span class="material-icons button-icon">arrow_forward</button>
             </article>
             `
